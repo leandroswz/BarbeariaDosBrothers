@@ -1,0 +1,170 @@
+body {
+    margin: 1px red solid;
+}
+
+header{
+    background: rgb(20, 67, 85);
+    padding: 20px 0;
+    
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+nav a , .cliqueaqui {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    background: #fbfeff;
+    border-radius: 3px;
+    font-family:Andale Mono, monospace ;
+}
+nav a:hover{
+    background: rgb(117, 117, 117);
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(20, 67, 85) ;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color:rgb(3, 86, 211);
+}
+
+.produtos h2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.produto-preco{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.produto-descricao{
+    font-size: 20px;
+    
+}
+.fotologo{
+    padding-top: 9px;
+    margin-left: -142px;
+}
+.imagemsalao{
+    width: 100%;
+    height: 262px;
+    margin-top: 20px;
+    
+}
+.brothers{
+    text-align: center;
+    font-size: 50px;
+    font-family: teko;
+    margin-top: 10px;
+    margin-left: -29px;
+}
+.agendar {
+    color:rgb(0, 0, 0);
+    background: tomato;
+    font-weight: bold;
+    width: 148px;
+    margin-left: 1100px;
+    
+}
+.fotozap{
+    width: 30px;
+    margin-left: 1250px;
+}
+.cliqueaqui img{
+    margin-top: 10px;
+    height: 15px;
+    margin-left: -12px;
+}
+.cliqueaqui:hover{
+    background: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+
+
+.main-aside1 ul {
+    
+    list-style: none;
+    padding: 0 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+    margin-left: 143px;
+}
+.main-aside1 ul a {
+
+    text-decoration: none ;
+    color:rgb(247, 247, 248);
+    font-size:17px;
+    transition: 1.5sg;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-aside1 h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.main-aside1 h2:hover{
+    color:rgb(250, 252, 252);
+}
+footer {
+    text-align: center;
+    background: rgb(20, 67, 85);
+    padding-top: 40px;
+}
+.rodape{
+    padding: 40px ;
+}
+p {
+    padding-top: -10px;
+    color:rgb(2, 2, 2);
+}
+
+.fotobaixo{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    filter:grayscale(1);
+    transition: 0.5s;
+    
+}
+.fotobaixo:hover{
+    transform: scale(1.1);
+
+}
+.footer{
+    margin: 45px 0px 0px 0px;
+}
